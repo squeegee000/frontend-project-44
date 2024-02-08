@@ -19,7 +19,7 @@ const brainGcd = () => {
         maxNum = Math.max(var1, minNum);
         minNum = Math.min(var1, minNum);
       }
-      return maxNum !== 0? maxNum : 1;
+      return maxNum !== 0 ? maxNum : 1;
     });
     showMessage(message);
     return message;
